@@ -9,6 +9,7 @@ From: nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu20.04
     ./run_tcrmodel2.py /root/.local/bin/run_tcrmodel2
     ./run_tcrmodel2_ub_tcr.py /root/.local/bin/run_tcrmodel2_ub_tcr
     ./run_tcrmodel2_ub_pmhc.py /root/.local/bin/run_tcrmodel2_ub_pmhc
+    ./relax_structure.py /root/.local/bin/relax_structure
 
 %post -c /bin/bash
     apt-get update
